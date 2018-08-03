@@ -96,9 +96,12 @@ Sorting an array into ascending order. This can be done either sequentially, usi
 
 Similar to C, all operators in same line have equal precedence. Binary operators operate from left to right and assignment operators from right to left.
 
-Logical right shift is ">>>"  which is extra to C language.
+Logical right shift is ">>>"  which is extra to C language. Similarly the assignment operator >>>=
 
 _instanceof_ is another operator in jave:<br />
 The java instanceof operator is used to test whether the object is an instance of the specified type (class or subclass or interface).
 
-The instanceof in java is also known as type comparison operator because it compares the instance with type
+The instanceof in java is also known as type comparison operator because it compares the instance with type.
+
+[Summary of operators] (https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html) link from Oracle's java tutorial has summary. 
+
