@@ -66,3 +66,17 @@ Other way is using _new_
 
 // create an array of integers
 anArray = new int[10];
+
+
+Array of strings is declared in this way:
+
+String[][] names
+
+In the Java programming language, a multidimensional array is an array whose components are themselves arrays. This is unlike arrays in C or Fortran. A consequence of this is that the rows are allowed to vary in length, as shown in the following
+
+String[][] names = {
+            {"Mr. ", "Mrs. ", "Ms. "},
+            {"Smith", "Jones"}
+        };
+        
+        
