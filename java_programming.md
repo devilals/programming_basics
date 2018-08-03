@@ -103,5 +103,5 @@ The java instanceof operator is used to test whether the object is an instance o
 
 The instanceof in java is also known as type comparison operator because it compares the instance with type.
 
-[Summary of operators] (https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html) link from Oracle's java tutorial has summary. 
+[Summary of operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html) link from Oracle's java tutorial has summary. 
 
