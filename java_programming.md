@@ -103,5 +103,17 @@ The java instanceof operator is used to test whether the object is an instance o
 
 The instanceof in java is also known as type comparison operator because it compares the instance with type.
 
+**A note or question from operators**
+
+What is difference between NOT(~) and NEGATION(!) ?
+The operator ~ toggles each bit in the binary representation of the number
+For example ~(11111111) is 00000000 (in decimal  ~(-1) is 0)
+and ~(11111110) is 00000001 (in decimal ~(-2) is 1) 
+
+The operator ! works differently.
+!0 is 1
+!(anything other than zero) is 0
+
+
 [Summary of operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html) link from Oracle's java tutorial has summary. 
 
