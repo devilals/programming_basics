@@ -39,3 +39,30 @@ You can place underscores only between digits; you cannot place underscores in t
 >> Prior to an F or L suffix<br />
 >> In positions where a string of digits is expected<br />
 
+
+#### Declaring a variable to point to an array 
+// declares an array of integers
+
+int[] anArray;
+
+This declaration is quite different syntactically from C...  
+
+You can also place the brackets after the array's name:
+
+// this form is discouraged
+float anArrayOfFloats[];
+However, convention discourages this form; the brackets identify the array type and should appear with the type designation.
+
+**Below are valid array initializations**
+int[] anArray = { 
+    100, 200, 300,
+    400, 500, 600, 
+    700, 800, 900, 1000
+};
+
+The size is determined by the number of values in the curly braces.
+
+Other way is using _new_
+
+// create an array of integers
+anArray = new int[10];
