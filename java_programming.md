@@ -117,3 +117,14 @@ The operator ! works differently.
 
 [Summary of operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html) link from Oracle's java tutorial has summary. 
 
+
+
+
+
+
+
+
+
+References:
+1. Oracle Official Java Tutorial : https://docs.oracle.com/javase/tutorial/java/TOC.html
+2. Difference between C and Java : http://durofy.com/10-major-differences-between-c-and-java/
