@@ -54,6 +54,7 @@ float anArrayOfFloats[];
 However, convention discourages this form; the brackets identify the array type and should appear with the type designation.
 
 **Below are valid array initializations**
+
 int[] anArray = { 
     100, 200, 300,
     400, 500, 600, 
@@ -89,3 +90,15 @@ Searching an array for a specific value to get the index at which it is placed (
 Comparing two arrays to determine if they are equal or not (the equals method).<br />
 Filling an array to place a specific value at each index (the fill method).<br />
 Sorting an array into ascending order. This can be done either sequentially, using the sort method, or concurrently, using the parallelSort method introduced in Java SE 8. Parallel sorting of large arrays on multiprocessor systems is faster than sequential array sorting.<br />
+
+
+**Operators in Java**
+
+Similar to C, all operators in same line have equal precedence. Binary operators operate from left to right and assignment operators from right to left.
+
+Logical right shift is ">>>"  which is extra to C language.
+
+_instanceof_ is another operator in jave:<br />
+The java instanceof operator is used to test whether the object is an instance of the specified type (class or subclass or interface).
+
+The instanceof in java is also known as type comparison operator because it compares the instance with type
