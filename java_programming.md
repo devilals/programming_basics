@@ -107,7 +107,7 @@ The instanceof in java is also known as type comparison operator because it comp
 
 What is difference between NOT(~) and NEGATION(!) ?
 The operator ~ toggles each bit in the binary representation of the number
-For example ~(11111111) is 00000000 (in decimal  ~(-1) is 0)
+For example ~(11111111) is 00000000 (in decimal  ~(-1) is 0) <br />
 and ~(11111110) is 00000001 (in decimal ~(-2) is 1) 
 
 The operator ! works differently.
