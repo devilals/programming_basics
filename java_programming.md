@@ -80,3 +80,12 @@ String[][] names = {
         };
         
         
+
+[java.util.array](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) provides a handful of methods to menupulate arrays 
+
+Some other useful operations provided by methods in the java.util.Arrays class, are:
+
+Searching an array for a specific value to get the index at which it is placed (the binarySearch method).<br />
+Comparing two arrays to determine if they are equal or not (the equals method).<br />
+Filling an array to place a specific value at each index (the fill method).<br />
+Sorting an array into ascending order. This can be done either sequentially, using the sort method, or concurrently, using the parallelSort method introduced in Java SE 8. Parallel sorting of large arrays on multiprocessor systems is faster than sequential array sorting.<br />
