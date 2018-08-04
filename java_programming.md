@@ -118,13 +118,32 @@ The operator ! works differently.
 [Summary of operators](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html) link from Oracle's java tutorial has summary. 
 
 
+### Classes and Objects
+
+#### Classes
+
+**Constructor** is a method in the class with no return type and the name is same as that of the class.
+If there is no constructor in the class, the compiler provides automatically a no-argument constructor.
+This default constructor will call the no-argument constructor of the superclass; in this case if the superclass does not have a no-argument constructor (but have a constructor with arguments), the compiler will complain.
+
+
+Q: Why declaring a constructor is important and what are the implications?
+A: 
+
+#### Objects
+
+int value; // this is pr
+imitive variable and the compiler reserves memory required to store an integer for this variable.
+
+You can also declare a reference variable on its own line. For example:
+
+Point originOne; //this is just a reference and it does not reserve memory as Point is a class; this is merely declaration of a reference.
+
+Object will be created only with "new" keyword, then the memory is reserved for the object of the class Point.<br />
+Creating an object of a class is also termed as **instantiating a class** 
 
 
 
-
-
-
-
-References:
-1. Oracle Official Java Tutorial : https://docs.oracle.com/javase/tutorial/java/TOC.html
+References //this is just a reference and it does not reserve memory as Point is a class and originOne is a object.
+1. **Most Important** Oracle Official Java Tutorial : https://docs.oracle.com/javase/tutorial/java/TOC.html
 2. Difference between C and Java : http://durofy.com/10-major-differences-between-c-and-java/
