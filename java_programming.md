@@ -127,8 +127,6 @@ If there is no constructor in the class, the compiler provides automatically a n
 This default constructor will call the no-argument constructor of the superclass; in this case if the superclass does not have a no-argument constructor (but have a constructor with arguments), the compiler will complain.
 
 
-Q: Why declaring a constructor is important and what are the implications?
-A: 
 
 #### Objects
 
