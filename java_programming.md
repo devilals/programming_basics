@@ -143,5 +143,5 @@ Creating an object of a class is also termed as **instantiating a class**
 
 
 References //this is just a reference and it does not reserve memory as Point is a class and originOne is a object.
-1. **Most Important** Oracle Official Java Tutorial : https://docs.oracle.com/javase/tutorial/java/TOC.html
+1. **Most Important** Oracle Official Java Tutorial : https://docs.oracle.com/javase/tutorial/java/index.html 
 2. Difference between C and Java : http://durofy.com/10-major-differences-between-c-and-java/
