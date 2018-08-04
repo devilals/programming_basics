@@ -140,6 +140,10 @@ Point originOne; //this is just a reference and it does not reserve memory as Po
 Object will be created only with "new" keyword, then the memory is reserved for the object of the class Point.<br />
 Creating an object of a class is also termed as **instantiating a class** 
 
+**Return type**
+
+_Covariant return type_ is a technique to override a method and define it to return a subclass of the original method.
+
 
 
 References //this is just a reference and it does not reserve memory as Point is a class and originOne is a object.
