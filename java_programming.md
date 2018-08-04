@@ -144,6 +144,28 @@ Creating an object of a class is also termed as **instantiating a class**
 
 _Covariant return type_ is a technique to override a method and define it to return a subclass of the original method.
 
+**This pointer**
+Usage [reference](https://docs.oracle.com/javase/tutorial/java/javaOO/thiskey.html): 
+1. For referring to a fields of the class which are overshadowed by constructor parameters etc.
+2. From within a constructor, you can also use the this keyword to call another constructor in the same class. Doing so is called an explicit constructor invocation.
+If present, the invocation of another constructor must be the first line in the constructor.
+
+#### Controlling Access to Members of a Class
+Access Levels
+
+|Modifier |	Class	| Package |	Subclass |	World |
+|--------------|:------------|:------------|:-------------|:---------|
+|public |		Y |		Y |		Y |		Y |	
+|protected |		Y |		Y |		Y |		N |	
+|no modifier (package-private) |		Y |		Y |		N |		N |	
+|private |		Y |		N |		N |		N |	
+
+
+**Tips on Choosing an Access Level:** 
+If other programmers use your class, you want to ensure that errors from misuse cannot happen. Access levels can help you do this.
+
+- Use the most restrictive access level that makes sense for a particular member. Use private unless you have a good reason not to.<br />
+- Avoid public fields except for constants. (Many of the examples in the tutorial use public fields. This may help to illustrate some points concisely, but is not recommended for production code.) Public fields tend to link you to a particular implementation and limit your flexibility in changing your code.<br />
 
 
 References //this is just a reference and it does not reserve memory as Point is a class and originOne is a object.
