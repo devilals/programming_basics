@@ -168,6 +168,15 @@ If other programmers use your class, you want to ensure that errors from misuse 
 - Avoid public fields except for constants. (Many of the examples in the tutorial use public fields. This may help to illustrate some points concisely, but is not recommended for production code.) Public fields tend to link you to a particular implementation and limit your flexibility in changing your code.<br />
 
 
+#### Class Variables and Class Methods
+Class variable are not instance variables meaning that these variables are associated with the class itself and not with the instance 
+of the class. The instance of the class can access these variables but the value of these variables remain same for different instances 
+of the class. These variables can be declared with _static_ keyword. Any object or instance of the class can change the class variables but they can also be changed without creating an object.
+
+Class methods, similar to the class variables, are associated with the class as a whole and not with an instance of the class.
+The class methods are also declared with _static_ keyword.
+
+
 References //this is just a reference and it does not reserve memory as Point is a class and originOne is a object.
 1. **Most Important** Oracle Official Java Tutorial : https://docs.oracle.com/javase/tutorial/java/index.html 
 2. Difference between C and Java : http://durofy.com/10-major-differences-between-c-and-java/
