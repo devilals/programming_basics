@@ -176,6 +176,33 @@ of the class. These variables can be declared with _static_ keyword. Any object 
 Class methods, similar to the class variables, are associated with the class as a whole and not with an instance of the class.
 The class methods are also declared with _static_ keyword.
 
+**Constants** 
+
+The static modifier, in combination with the final modifier, is also used to define constants. The final modifier indicates that the value of this field cannot change.
+static final double PI = 3.141592653589793;
+
+
+A **static initialization block** is a normal block of code enclosed in braces, { }, and preceded by the static keyword. 
+This is basically where you would like to put some logic when simple assignment is not adequate. Here is an example:
+
+static {
+    // whatever code is needed for initialization goes here
+}
+
+There is an alternative to static blocks — you can write a private static method:
+
+class Whatever {
+    public static varType myVar = initializeClassVariable();
+        
+    private static varType initializeClassVariable() {
+
+        // initialization code goes here
+    }
+}
+The advantage of private static methods is that they can be reused later if you need to reinitialize the class variable.
+
+
+
 
 References //this is just a reference and it does not reserve memory as Point is a class and originOne is a object.
 1. **Most Important** Oracle Official Java Tutorial : https://docs.oracle.com/javase/tutorial/java/index.html 
