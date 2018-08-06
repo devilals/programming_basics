@@ -214,8 +214,19 @@ public class OperateBMW760i implements OperateCar {
 
 **These example can also be understood in the way that regulators define the interfaces and all OEMs have to implement the interfaces for the products in order to get certified.**
 
-In commercial software products interfaces are also used as APIs (Application Programming Interfaces)
+In commercial software products interfaces are also used as **APIs** (Application Programming Interfaces)
 
+**defining an interface is as easy as defining a class**
+
+An interface declaration consists of modifiers, the keyword interface, the interface name, a comma-separated list of parent interfaces (if any), and the interface body. For example:
+
+public interface GroupedInterface extends Interface1, Interface2, Interface3 {
+//constant declaration
+
+//method signatures
+}
+
+If public keyword is not used then the interface becomes package-private; classes in the package can access the interface.
 
 
 
