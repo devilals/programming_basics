@@ -1,7 +1,6 @@
 ## This is Quick Reference Guide (QRC) for Java Programming Basics
 
-This tutorial is not a complete tutorial for java programming but is only aiming to capture the differences w.r.t C programming or 
-anything to be noted.
+This tutorial is not a complete tutorial for java programming but is only aiming to capture the mainly the differences w.r.t C programming or something catches my attention.
 
 The following chart summarizes the default values for the above data types.
 
@@ -200,6 +199,23 @@ class Whatever {
     }
 }
 The advantage of private static methods is that they can be reused later if you need to reinitialize the class variable.
+
+#### Interfaces in Java
+Interface in java is a reference type similar to a class and it contains only constants, method signatures, default methods, static methods, and nested types. 
+It is basically a set of methods, constatnts defined so that a class can agree to implement the interface or interfaces defined or multiple classes can agree to implement that interface or theat set of interfaces.
+
+In below class declaration OperateCar is an interface which every car has to implement and this interface defines methods such as 
+turnRight, turnLeft, changeLane etc.
+public class OperateBMW760i implements OperateCar {
+.
+.
+.
+}
+
+**These example can also be understood in the way that regulators define the interfaces and all OEMs have to implement the interfaces for the products in order to get certified.**
+
+In commercial software products interfaces are also used as APIs (Application Programming Interfaces)
+
 
 
 
