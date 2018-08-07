@@ -274,12 +274,21 @@ A subclass inherits all of the public and protected members of its parent, no ma
 All public and protected members are accessible to subclass. Private members are not accessible but if the superclass's public or private member access the private member then that private member will be accessible in the subclass as well.
 
 
+**type casting of objects is tricky** 
+If the object is declared as parent class object 
 
 _What is not covered/studied_:
 * Method Refereces
 * Lambda Expressions
 * Nested classes
 * Annotations
+* Using an interface as a type (read again)
+
+**Overriding and Hiding**
+
+An instance method in a subclass with the same signature (name, plus the number and the type of its parameters) and return type as an instance method in the superclass **overrides** the superclass's method.
+
+If a subclass defines a static method with the same signature as a static method in the superclass, then the method in the subclass **hides** the one in the superclass.
 
 
 
