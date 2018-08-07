@@ -229,9 +229,25 @@ public interface GroupedInterface extends Interface1, Interface2, Interface3 {
 If public keyword is not used then the interface becomes package-private; classes in the package can access the interface.
 
 **Using interfaces** A very good demo is at [this page](https://docs.oracle.com/javase/tutorial/java/IandI/interfaceAsType.html)
-Basically if the class implements a 
 
+**Evolving interfaces**
+Suppose you have an interface and later you want to add another method in it. The problem comes is all classes implementing this interface have to implement the new method. There are two ways to solve this problem:
+1. Define one more interface which implements existing one and declare the new method. If the existing interface is DoIt then have another interface DoItPlus as below
+public interface DoItPlus extends DoIt{
+    //new method definition
+}
+Now the classes which needs the new method will change and implements DoItPlus and remaining classes do not have any change.
 
+2. Second solution is to implement [default method](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html).
+Remember that default methods have to be implemented inside the interface unlike regular methods in the interface.
+
+public interface DoIt {
+       //methods declaration same in DoIt
+      default boolean didItWork(int i, double x, String s) {
+       // Method body 
+   }
+   
+}
 
 References //this is just a reference and it does not reserve memory as Point is a class and originOne is a object.
 1. **Most Important** Oracle Official Java Tutorial : https://docs.oracle.com/javase/tutorial/java/index.html 
