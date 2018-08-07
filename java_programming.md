@@ -228,6 +228,8 @@ public interface GroupedInterface extends Interface1, Interface2, Interface3 {
 
 If public keyword is not used then the interface becomes package-private; classes in the package can access the interface.
 
+**Using interfaces** A very good demo is at [this page](https://docs.oracle.com/javase/tutorial/java/IandI/interfaceAsType.html)
+Basically if the class implements a 
 
 
 
