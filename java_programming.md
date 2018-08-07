@@ -248,6 +248,21 @@ public interface DoIt {
    }
    
 }
+You could also define new [static methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html#static) to existing interfaces.
+
+
+**Integrating Default Methods into Existing Libraries **
+
+
+
+
+_What is not covered/studied_:
+* Method Refereces
+* Lambda Expressions
+* Nested classes
+* Annotations
+
+
 
 References //this is just a reference and it does not reserve memory as Point is a class and originOne is a object.
 1. **Most Important** Oracle Official Java Tutorial : https://docs.oracle.com/javase/tutorial/java/index.html 
