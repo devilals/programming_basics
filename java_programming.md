@@ -292,6 +292,23 @@ If a subclass defines a static method with the same signature as a static method
 
 
 
+#### Java Exceptions 
+Exception is short form of exceptional event. Exception events occur when the normal flow of the program is disrupted.
+When the error occurs an exception object is created and handed over to the system; this object contains the information about the error occured.
+
+Code that fails to honor the Catch or Specify Requirement will not compile
+
+Checked exceptions are subject to the Catch or Specify Requirement. All exceptions are checked exceptions, except for those indicated by Error, RuntimeException, and their subclasses.
+
+
+**Advantages of Exceptions** over usual error handling:
+* Advantage 1: Separating Error-Handling Code from "Regular" Code
+* 
+
+
+
+
+
 References //this is just a reference and it does not reserve memory as Point is a class and originOne is a object.
 1. **Most Important** Oracle Official Java Tutorial : https://docs.oracle.com/javase/tutorial/java/index.html 
 2. Difference between C and Java : http://durofy.com/10-major-differences-between-c-and-java/
