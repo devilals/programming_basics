@@ -301,9 +301,10 @@ Code that fails to honor the Catch or Specify Requirement will not compile
 Checked exceptions are subject to the Catch or Specify Requirement. All exceptions are checked exceptions, except for those indicated by Error, RuntimeException, and their subclasses.
 
 
-**Advantages of Exceptions** over usual error handling:
+**Advantages of Exceptions** over usual error handling, [details](https://docs.oracle.com/javase/tutorial/essential/exceptions/advantages.html):
 * Advantage 1: Separating Error-Handling Code from "Regular" Code
-* 
+* Advantage 2: Propagating Errors Up the Call Stack
+* Advantage 3: Grouping and Differentiating Error Types
 
 
 
